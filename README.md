@@ -1,4 +1,75 @@
-# Brevis Powered Social Loans AVS
+# SUCL - Social-based under-collaterized Loans
+
+Brevis is a smart ZK coprocessor that empowers smart contracts to read from the full historical on-chain data, such as states, transactions, and events, from Ethereum and other chains, decode them with developer-specified logic, and run customizable computations in a completely trustless way. 
+
+## Problem This Solves
+
+Traditional lending systems require over-collateralization, often making loans inaccessible for individuals with limited capital. Furthermore, decentralized finance (DeFi) protocols usually lack sufficient context to assess creditworthiness beyond just wallet balances or assets locked on-chain. This leaves a significant portion of users excluded from financial services and limits the scope for flexible lending solutions.
+
+## Solution
+SUCL introduces social-based under-collateralized loans by leveraging the Brevis ZK coprocessor, which allows us to read historical on-chain data and events, such as transaction histories, account ages, and network behavior. With zero-knowledge proofs (ZKPs), SUCL can verify trustless proofs of creditworthiness based on past behavior without compromising user privacy.
+
+By doing so, SUCL unlocks a new model of lending that minimizes risks for lenders and enhances accessibility for borrowers without the need for significant collateral.
+
+
+SUCL - Social-based Under-Collateralized Loans
+Tagline:
+Empowering financial inclusion with trustless, social-based under-collateralized loans via zero-knowledge proofs.
+
+## Problem This Solves
+Traditional lending systems require over-collateralization, often making loans inaccessible for individuals with limited capital. Furthermore, decentralized finance (DeFi) protocols usually lack sufficient context to assess creditworthiness beyond just wallet balances or assets locked on-chain. This leaves a significant portion of users excluded from financial services and limits the scope for flexible lending solutions.
+
+## Solution
+SUCL introduces social-based under-collateralized loans by leveraging the Brevis ZK coprocessor, which allows us to read historical on-chain data and events, such as transaction histories, account ages, and network behavior. With zero-knowledge proofs (ZKPs), SUCL can verify trustless proofs of creditworthiness based on past behavior without compromising user privacy.
+
+By doing so, SUCL unlocks a new model of lending that minimizes risks for lenders and enhances accessibility for borrowers without the need for significant collateral.
+
+## How It Works
+Proving Creditworthiness:
+Borrowers submit proofs of their account age or transaction history using Brevis-powered ZK proofs. These proofs are processed and validated trustlessly on-chain.
+
+Loan Request and Verification:
+The borrower’s verified proofs are submitted to the SUCL smart contract, which determines eligibility for under-collateralized loans. Social metrics or account activity becomes a proxy for collateral.
+
+Loan Disbursal:
+Once the proof is verified, the smart contract facilitates the loan, automating the process without the need for traditional financial intermediaries.
+
+Monitoring and Repayment:
+The system monitors repayment behavior and adjusts the borrower’s future lending eligibility based on performance.
+
+## Features
+
+* Social-Based Credit Assessment: Uses on-chain social behavior and account metrics as a form of credit scoring.
+
+* Under-Collateralized Lending: Borrowers can access loans without having to lock excessive collateral.
+
+* Zero-Knowledge Privacy: Ensures user privacy with ZKPs while enabling transparent verification.
+
+* Cross-Chain Compatibility: Works across multiple blockchains, leveraging Brevis for seamless data access.
+
+* Automated Loan Processes: Smart contracts manage loans from request to repayment.
+
+* Lender Security: On-chain proofs ensure lenders only extend loans to verified borrowers, minimizing risks.
+
+## How It Works
+
+Proving Creditworthiness:
+
+Borrowers submit proofs of their account age or transaction history using Brevis-powered ZK proofs. These proofs are processed and validated trustlessly on-chain.
+
+Loan Request and Verification:
+
+The borrower’s verified proofs are submitted to the SUCL smart contract, which determines eligibility for under-collateralized loans. Social metrics or account activity becomes a proxy for collateral.
+
+Loan Disbursal:
+
+Once the proof is verified, the smart contract facilitates the loan, automating the process without the need for traditional financial intermediaries.
+
+Monitoring and Repayment:
+
+The system monitors repayment behavior and adjusts the borrower’s future lending eligibility based on performance.
+
+
 ## Environment Requirements
 
 - Go >= 1.20
